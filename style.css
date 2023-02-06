@@ -1,0 +1,334 @@
+/* GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dorsa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPMincho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: auto;
+    width: 100%;
+    min-width: 1080px;
+    max-width: 1920px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(224, 224, 224);
+}
+
+/* HEADER */
+
+#main-nav{
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    height: 50px;
+    text-align: right;
+}
+.logo-holder{
+    margin-top: 8px;
+    float: left;
+    text-align: left;
+}
+.logo-png{
+    width: 15%;
+}
+#main-menu{
+    list-style: none;
+}
+.main-menu-item{
+    display: inline-block;
+}
+.main-menu-item a{
+    color: black;
+    text-decoration: none;
+    margin: 15.5px;
+    font-size: 15px;
+    display: inline-block;
+}
+.main-menu-item a:hover{
+    opacity: 50%;
+    transition: 0.5s;
+}
+
+/* Section 1 */
+
+.section-1{
+    float: left;
+    width: 100%;
+}
+.head-name{
+}
+.section-1 img{
+    float: right;
+    width: 45%;
+}
+.section-1 p{
+    text-align: left;
+}
+.text-1{
+    padding-left: 3rem;
+    font-size: 80px;
+    padding-top: 7rem;
+    font-family: 'Italiana', serif;
+}
+.text-2{
+    padding-left: 3rem;
+    font-size: 60px;
+    padding-top: 2rem;
+    font-family: 'Italiana', serif;
+}
+.btn-more{
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+.button-1{
+    width: 230px;
+    padding: 15px;
+    font-size: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.href-1{
+    padding-top: 13rem;
+}
+.text-3{  
+    font-family: 'Besley', serif;
+    font-size: 12.6px;
+    margin-left: 30.5rem;
+    margin-top: 10rem;
+    text-decoration: none;
+    color: black;
+}
+.inst{
+    margin-left: 3rem;
+    margin-top: -1.2rem;
+}
+.inst img{
+    float: left;
+    width: 20px;
+    margin-top: 0.1rem;
+
+}
+.inst a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+/* Section 2 */
+
+#p-home{
+    width: 100%;
+    float: left;
+}
+.page-2{
+    padding-left: 0.5rem;
+}
+.second-image img{
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+}
+.image-2{
+    width: 21%;
+}
+.image-3{
+    width: 21%;
+}
+.image-4{
+    width: 21%;
+}
+.img-5{
+    float: right;
+    width: 30.5%;
+    text-align: right;
+}
+.description-1{
+    padding-top: 1.5rem;
+    margin-left: 1rem;
+    font-family: 'Besley', serif;
+    font-size: 25px;
+
+}
+.description-1 hr{
+    width: 40rem;
+}
+hr{ 
+    border-width: 1.4px;
+    border-color: black;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Section 3 */
+
+#page-about{
+    float: left;
+    width: 100%;
+}
+.img-6{
+    padding-top: 1rem;
+    float: left;
+    width: 45%;
+    text-align: left;
+}
+.page-3{
+}
+.about-me p{
+    float: left;
+    padding-left: 2rem; 
+    padding-top: 2rem;
+}
+.about{
+    font-family: 'Italiana', serif;
+    font-size: 80px;
+}
+.opus{
+    margin-top: -1.3rem;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+.opus-2{
+    margin-top: 1rem;
+    font-family: 'Poiret One', cursive;
+    font-size: 25px;
+}
+.by{
+    margin-left: 20rem;
+    margin-top: 4rem;
+    font-family: 'Poiret One', cursive;
+    font-size: 35px;
+}
+
+/* 4 Section */
+
+.page-4{
+    width: 100%;
+}
+.img-4{
+    text-align: right;
+}
+.img-4 img{
+    padding-top: 0.5rem;
+    width: 54%;
+}
+
+/* 5 Section */
+
+.page-5{
+    padding-top: 2.5rem;
+    margin: auto;
+    width: 100%;
+    /* text-align: center; */
+}
+/* .zyomku{
+    padding-left: 4rem;
+} */
+.vudu-zyomok{
+    margin-left: 1.75%;
+    width: 31%;
+    float: left;
+}
+.head-opus{
+    padding-top: 0.7rem;
+    font-size: 3rem;
+    font-family: 'Italiana', serif;
+}
+.zyomku img{
+    width: 100%;
+}
+.midium-opus{
+    padding-top: 0.2rem;
+    font-family: 'BIZ UDPMincho', serif;
+    font-size: 1.15rem;
+}
+
+/* 6 Section */
+
+.page-6{
+    float: left;
+    width: 100%;
+    margin-top: 5.6rem
+}
+.edit-img-11{
+    float: left;
+    margin-left: 1.75%;
+}
+.img-11{
+    width: 82%;
+}
+
+.spusok li{
+    margin-top: 7.5rem;
+    font-size: 1.2rem;
+    font-family: 'BIZ UDPMincho', serif;
+}
+.text-more{
+    margin-top: -26.5rem;
+    margin-right: 1.75%;
+    text-align: right;
+    font-size: 4rem;
+    font-family: 'Italiana', serif;
+}
+
+/* 7 Section */
+
+.page-7{
+    float: left;
+    width: 100%;
+    background-color: black;
+}
+.contact-img img{
+    float: right;
+    width: 45%;
+}
+.text-contact p{
+    color: white;
+}
+.by-k{
+    margin-left: 4rem;
+    margin-top: 5rem;
+    font-size: 1.7rem;
+    font-family: 'Josefin Slab', serif;
+}
+.bh{
+    font-family: 'Italiana', serif;
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
+}
+.email{
+    font-size: 1.7rem;
+    margin-top: 10rem;
+    margin-left: 20rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.gm{
+    margin-left: 20rem;
+    margin-top: 0.3rem;
+    font-family: bold;
+}
+.loc{
+    font-size: 1.7rem;
+    margin-top: 1.5rem;
+    margin-left: 20rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.city{
+    margin-left: 20rem;
+    margin-top: 0.3rem;
+    font-family: bold;
+}
+.collabs{
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-left: 20rem;
+    margin-top: 4rem;
+}
